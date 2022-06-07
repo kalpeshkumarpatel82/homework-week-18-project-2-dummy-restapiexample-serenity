@@ -1,5 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Dummy rest APICURD test","This will Delete an employee by ID","FAILURE","2022-06-07T13:54:26.289+02:00[Europe/Paris]","0.0","1.07"
 "Dummy rest APICURD test","2. Verify if 24th Data id is 24","ERROR","2022-06-07T13:54:28.286+02:00[Europe/Paris]","0.0","1.11"
 "Dummy rest APICURD test","7. Verify 6th id age is 61","ERROR","2022-06-07T13:54:32.776+02:00[Europe/Paris]","0.0","0.8"
 "Dummy rest APICURD test","8. Verify 11th id name is Jena Gaines","ERROR","2022-06-07T13:54:33.578+02:00[Europe/Paris]","0.0","0.76"

@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 9.994 sec <<< FAILURE! - in com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest
-test005(com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest)  Time elapsed: 0.938 sec  <<< FAILURE!
+Tests run: 12, Failures: 1, Errors: 3, Skipped: 0, Time elapsed: 17.201 sec <<< FAILURE! - in com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest
+test004(com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest)  Time elapsed: 1.071 sec  <<< FAILURE!
 java.lang.AssertionError: 1 expectation failed.
 Expected status code <200> but was <429>.
 
@@ -30,5 +30,17 @@ Expected status code <200> but was <429>.
 	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
 	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
 	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
-	at com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest.test005(DummyRestAPICURDTest.java:85)
+	at com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest.test004(DummyRestAPICURDTest.java:80)
+
+test006(com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest)  Time elapsed: 1.11 sec  <<< ERROR!
+java.lang.ClassCastException: io.restassured.path.xml.XmlPath cannot be cast to java.lang.Integer
+	at com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest.test006(DummyRestAPICURDTest.java:98)
+
+test011(com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest)  Time elapsed: 0.798 sec  <<< ERROR!
+java.lang.ClassCastException: io.restassured.path.xml.XmlPath cannot be cast to java.util.List
+	at com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest.test011(DummyRestAPICURDTest.java:138)
+
+test012(com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest)  Time elapsed: 0.758 sec  <<< ERROR!
+java.lang.ClassCastException: io.restassured.path.xml.XmlPath cannot be cast to java.util.List
+	at com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest.test012(DummyRestAPICURDTest.java:146)
 
